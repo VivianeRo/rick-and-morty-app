@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.foto-principal {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    
+}
+.foto-principal img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+.container {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
